@@ -20,12 +20,16 @@ extraction, and analytics.
 ## Local Development
 
 ### 1. Clone all repos
-mkdir healthcare-platform && cd healthcare-platform
+mkdir healthcare-platform
+cd healthcare-platform
 
-git clone git@github.com:healthcare-ai-platform/backend.git
-git clone git@github.com:healthcare-ai-platform/pipeline.git
-git clone git@github.com:healthcare-ai-platform/frontend.git
-git clone git@github.com:healthcare-ai-platform/infra.git
+git clone git@github.com:healthcare-ai-platform/healthcare-ai-platform-backend.git
+
+git clone git@github.com:healthcare-ai-platform/healthcare-ai-platform-pipeline.git
+
+git clone git@github.com:healthcare-ai-platform/healthcare-ai-platform-frontend.git
+
+git clone git@github.com:healthcare-ai-platform/healthcare-ai-platform-infra.git
 
 ### 2. Start local infrastructure
 cd infra && docker-compose up -d
